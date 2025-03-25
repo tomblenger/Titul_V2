@@ -11,7 +11,6 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
-    $("body > *").not(".modal").show();
     $('#header_wrapper').scrollToFixed();
     $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
@@ -123,6 +122,7 @@ $(document).ready(function() {
         setProjects();
     });
 
+// wow.init();
 
 });
 
@@ -130,7 +130,6 @@ wow = new WOW({
     animateClass: 'animated',
     offset: 100
 });
-wow.init();
 document.getElementById('').onclick = function() {
     var section = document.createElement('section');
     section.className = 'wow fadeInDown';
