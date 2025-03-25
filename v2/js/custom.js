@@ -123,6 +123,21 @@ $(document).ready(function() {
     });
     // alert("ready")
 
+    // Apply smooth scrolling only to header links
+    $('a[href^="#"]').on('click', function (event) {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Get the target element
+        var target = $($.attr(this, 'href'));
+
+        // If the target exists, scroll to it smoothly
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1200); // Adjust the scroll speed (in ms)
+        }
+    });
 
 });
 

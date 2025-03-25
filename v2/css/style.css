@@ -62,12 +62,15 @@ a:active {
     will-change: opacity, transform;
     transform: translateZ(0);
 }
+
 .animated {
     animation-fill-mode: forwards !important;
 }
+
 html {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
+
 body {
     background: #fff;
     font-family: sans-serif;
@@ -1835,7 +1838,7 @@ header img {
     margin-top: 50px;
 }
 
-#whyUs {
+#why {
     margin-top: 50px;
     padding-bottom: 50px !important;
 }
@@ -1844,16 +1847,16 @@ header img {
 /* Services Section
 --------------------------------*/
 
-#whyUs {
+#why {
     padding: 60px 0 0 0;
     background: #efefef;
 }
 
-#whyUs h2 {
+#why h2 {
     margin-bottom: 50px !important;
 }
 
-#whyUs .box {
+#why .box {
     padding: 40px;
     margin-bottom: 40px;
     box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
@@ -1861,18 +1864,18 @@ header img {
     transition: 0.4s;
 }
 
-#whyUs .box:hover {
+#why .box:hover {
     box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
 }
 
-#whyUs .box .icon {
+#why .box .icon {
     float: left;
 }
 
-#whyUs .box .icon i {
+#why .box .icon i {
     color: #444;
     font-size: 64px;
     transition: 0.5s;
@@ -1880,7 +1883,7 @@ header img {
     margin-top: 34px;
 }
 
-#whyUs .box .icon i:before {
+#why .box .icon i:before {
     background: #0c2e8a;
     background: #df0031;
     background-clip: border-box;
@@ -1888,7 +1891,7 @@ header img {
     -webkit-text-fill-color: transparent;
 }
 
-#whyUs .box h4 {
+#why .box h4 {
     margin-left: 100px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -1896,11 +1899,11 @@ header img {
     min-height: 50px;
 }
 
-#whyUs .box h4 a {
+#why .box h4 a {
     color: #444;
 }
 
-#whyUs .box p {
+#why .box p {
     font-size: 14px;
     margin-left: 100px;
     margin-bottom: 0;
@@ -1908,16 +1911,16 @@ header img {
 }
 
 @media (max-width: 767px) {
-    #whyUs .box .box {
+    #why .box .box {
         margin-bottom: 20px;
     }
-    #whyUs .box .icon {
+    #why .box .icon {
         float: none;
         text-align: center;
         padding-bottom: 15px;
     }
-    #whyUs .box h4,
-    #whyUs .box p {
+    #why .box h4,
+    #why .box p {
         margin-left: 0;
         text-align: center;
     }
