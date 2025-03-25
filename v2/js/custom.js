@@ -17,7 +17,7 @@ $(document).ready(function() {
         return false
 
     });
-
+	
     function resizeText() {
         var preferredWidth = 767;
         var displayWidth = window.innerWidth;
@@ -36,7 +36,8 @@ $(document).ready(function() {
         scrollThreshold: 0.2,
         filter: '',
         easing: 'swing',
-        begin: function() {},
+        begin: function() {
+        },
         end: function() {
             if (!$('#main-nav ul li:first-child').hasClass('active')) {
                 $('.header').addClass('addBg');
@@ -94,7 +95,7 @@ $(document).ready(function() {
 
         return columnNumb;
     }
-
+	
     function setColumns() {
         var winWidth = $(window).width(),
             columnNumb = splitColumns(),

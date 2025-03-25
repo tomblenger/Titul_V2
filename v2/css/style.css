@@ -1754,6 +1754,16 @@ div.mc-image {
         color: #222;
         background: #f9f9f9;
     }
+
+    .modal-content {
+        background-color: white;
+        padding: 4rem;
+        border-radius: 1rem;
+        max-width: 80%;
+        width: 80%!important;
+        text-align: center;
+        position: relative;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1771,15 +1781,7 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
-    margin-top: 2.5rem;
-}
-
-.cases {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 3.5rem;
     margin-top: 4rem;
     margin-bottom: 10rem;
 }
@@ -1909,6 +1911,26 @@ header img {
         margin-left: 0;
         text-align: center;
     }
+    #cases {
+        padding: 60px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .modal-content p {
+        margin: 0.1rem;
+        text-align: justify;
+    }
+
+    .modal-content p:first-child {
+        font-weight: bold;
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        line-height: 4rem;
+        text-align: center;
+    }
 }
 
 @media (mix-width: 480px) {
@@ -2021,16 +2043,6 @@ body {
     align-items: center;
 }
 
-.modal-content {
-    background-color: white;
-    padding: 4rem;
-    border-radius: 1rem;
-    max-width: 50%;
-    width: 90%;
-    text-align: center;
-    position: relative;
-}
-
 .close {
     position: absolute;
     top: 1rem;
@@ -2039,15 +2051,26 @@ body {
     cursor: pointer;
 }
 
+.modal-content {
+    background-color: white;
+    padding: 4rem;
+    border-radius: 1rem;
+    max-width: 90%;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
 .modal-content p {
-    margin: 0.5rem 0;
+    margin: 0.5rem;
     text-align: justify;
 }
 
 .modal-content p:first-child {
     font-weight: bold;
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 4rem;
     text-align: center;
 }
 
@@ -2056,7 +2079,7 @@ body {
 }
 
 #modal-logo img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-top: 20px;
     opacity: 0.5;
