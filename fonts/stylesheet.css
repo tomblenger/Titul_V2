@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Spectral';
-    src: url('subset-Spectral-Regular.woff2') format('woff2'),
-        url('subset-Spectral-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
