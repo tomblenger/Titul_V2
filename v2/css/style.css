@@ -444,10 +444,6 @@ a.read_more2:hover {
     text-align: justify;
 }
 
-.inner_section_content {
-    margin-top: 50px;
-}
-
 .service-list {
     padding: 0 0 0 0;
     font-size: 14px;
@@ -1779,6 +1775,10 @@ div.mc-image {
         color: #222;
         background: #f9f9f9;
     }
+    .inner_section_content {
+        margin-top: 50px;
+    }
+
 
     .modal-content {
         background-color: white;
