@@ -68,7 +68,12 @@ a:active {
 }
 
 html {
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
+}
+
+/* Disable smooth scrolling for header links */
+header a {
+    scroll-behavior: auto!important;  /* This removes smooth scrolling for links inside header */
 }
 
 body {
@@ -434,6 +439,9 @@ a.read_more2:hover {
 
 .inner_section {
     padding: 60px 0 20px;
+}
+.inner_section p {
+    text-align: justify;
 }
 
 .service-list {
