@@ -59,6 +59,8 @@ a:active {
 ---------------------------------*/
 .wow {
     visibility: hidden;
+    will-change: opacity, transform;
+    transform: translateZ(0);
 }
 .animated {
     animation-fill-mode: forwards !important;
