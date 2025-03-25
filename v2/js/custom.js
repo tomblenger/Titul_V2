@@ -121,25 +121,6 @@ $(document).ready(function() {
     $(window).bind('resize', function() {
         setProjects();
     });
-    // alert("ready")
-
-    // Apply smooth scrolling only to header links
-
-    // $('a[href^="#"]').on('click', function (event) {
-    //     // Prevent default anchor click behavior
-    //     event.preventDefault();
-    //
-    //     // Get the target element
-    //     var target = $($.attr(this, 'href'));
-    //
-    //     // If the target exists, scroll to it smoothly
-    //     if (target.length) {
-    //         $('html, body').animate({
-    //             scrollTop: target.offset().top
-    //         }, 600); // Adjust the scroll speed (in ms)
-    //     }
-    // });
-
 });
 
 wow = new WOW({
@@ -151,7 +132,7 @@ wow = new WOW({
 
 wow.init();
 
-document.getElementById('').onclick = function() {
+document.getElementById('header_wrapper').onclick = function() {
     var section = document.createElement('section');
     section.className = 'wow fadeInDown';
     section.className = 'wow shake';
