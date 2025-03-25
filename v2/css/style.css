@@ -22,6 +22,7 @@ ul {
 
 img {
     max-width: 100%;
+    margin-bottom: 50px;
 }
 
 a,
@@ -1910,6 +1911,24 @@ header img {
     }
 }
 
+@media (mix-width: 480px) {
+    .aboutImg {
+        margin-bottom: 50px!important;
+    }
+    .aboutImg {
+        padding-bottom: 50px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutImg {
+        margin-bottom: 50px!important;
+    }
+    .aboutImg {
+        padding-bottom: 50px!important;
+    }
+}
+
 body {
     color: #333;
     -webkit-font-smoothing: antialiased;
@@ -2088,6 +2107,9 @@ body {
     h2 {
         font-size: 1.5em;
         /* Adjusting heading font size for smaller screens */
+    }
+    .top_left_cont {
+        margin-top: 50px!important;
     }
 }
 
