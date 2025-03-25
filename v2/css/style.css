@@ -2084,6 +2084,13 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.5em;
+        /* Adjusting heading font size for smaller screens */
+    }
+}
+
 .modal-text {
     /*float: right;*/
 }
