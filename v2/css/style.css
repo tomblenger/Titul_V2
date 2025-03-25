@@ -240,7 +240,6 @@ p {
 
 .hero_section img {
     margin-top: 50px;
-    /* margin-right: 50px; */
 }
 
 .hero_section h2 {
@@ -304,7 +303,6 @@ p {
 
 a.read_more2 {
     margin-left: 50%;
-    /* margin-right: 100px; */
     font-family: sans-serif;
     display: block;
     font-size: 20px;
@@ -335,6 +333,7 @@ a.read_more2:hover {
 
 #service {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 80px;
     background: #EFEFEF;
 }
