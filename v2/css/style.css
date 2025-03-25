@@ -57,7 +57,9 @@ a:active {
 
 /* Styles
 ---------------------------------*/
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: #fff;
     font-family: sans-serif;
