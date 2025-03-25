@@ -16,8 +16,11 @@
     <script src="./v2/js/html5shiv.js"></script>
     <script src="./v2/js/html5element.js"></script>
     <![endif] -->
-
-    <script type="text/javascript" src="./v2/js/custom.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("body > *").not(".modal").hide();
+      });
+    </script>
 </head>
 
 <body>
@@ -335,6 +338,7 @@
     <script type="text/javascript" src="./v2/js/jquery.isotope.js"></script>
     <script type="text/javascript" src="./v2/js/wow.js"></script>
     <script type="text/javascript" src="./v2/js/modal.js"></script>
+    <script type="text/javascript" src="./v2/js/custom.js"></script>
 </body>
 
 </html>

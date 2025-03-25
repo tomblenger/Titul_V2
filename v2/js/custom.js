@@ -11,6 +11,7 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
+    $("body > *").not(".modal").show();
     $('#header_wrapper').scrollToFixed();
     $('.res-nav_click').click(function() {
         $('.main-nav').slideToggle();
