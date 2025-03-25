@@ -57,6 +57,12 @@ a:active {
 
 /* Styles
 ---------------------------------*/
+.wow {
+    visibility: hidden;
+}
+.animated {
+    animation-fill-mode: forwards !important;
+}
 html {
     scroll-behavior: smooth;
 }
