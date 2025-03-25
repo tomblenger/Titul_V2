@@ -6,11 +6,15 @@
     font-display: swap;
 }
 
+
 /* Общий контейнер для всего контента */
+
 .container {
     max-width: 1200px;
-    margin: 0 auto; /* Центрирование контейнера */
-    padding: 0 1rem; /* Отступы по бокам для мобильных устройств */
+    margin: 0 auto;
+    /* Центрирование контейнера */
+    padding: 0 1rem;
+    /* Отступы по бокам для мобильных устройств */
 }
 
 body {
@@ -65,7 +69,8 @@ nav a:hover {
 }
 
 main {
-    padding: 2.5rem 0; /* Убираем горизонтальные отступы, так как они заданы в .container */
+    padding: 2.5rem 0;
+    /* Убираем горизонтальные отступы, так как они заданы в .container */
 }
 
 h3 {
@@ -76,26 +81,32 @@ h3 {
     text-align: center;
 }
 
-.why-us, .services, .our-cases, #contacts {
+.why-us,
+.services,
+.our-cases,
+#contacts {
     margin-top: 2rem;
     text-align: center;
 }
 
-.why-us ul, .services ul {
+.why-us ul,
+.services ul {
     list-style-type: none;
     padding: 0;
     display: inline-block;
     text-align: left;
 }
 
-.why-us ul li, .services ul li {
+.why-us ul li,
+.services ul li {
     font-size: 1.125rem;
     margin-bottom: 0.75rem;
     position: relative;
     padding-left: 1.5rem;
 }
 
-.why-us ul li::before, .services ul li::before {
+.why-us ul li::before,
+.services ul li::before {
     content: "•";
     color: #000;
     font-size: 1.5rem;
@@ -145,7 +156,7 @@ h3 {
 footer {
     background-color: #111827;
     color: white;
-    padding: 1.5rem 0; /* Убираем горизонтальные отступы */
+    padding: 1.5rem 0;
     text-align: center;
 }
 
@@ -314,96 +325,79 @@ footer {
     right: -5rem;
 }
 
+
 /* Адаптация для мобильных устройств */
+
 @media (max-width: 768px) {
     .container {
-        padding: 0 1rem; /* Отступы по бокам для мобильных устройств */
+        padding: 0 1rem;
+        /* Отступы по бокам для мобильных устройств */
     }
-
     body {
         font-size: 14px;
     }
-
     header {
         padding: 1rem;
     }
-
     header img {
         height: 4rem;
     }
-
     .phrase {
         font-size: 1.25rem;
         text-align: center;
     }
-
     nav {
         flex-direction: column;
         gap: 0.5rem;
     }
-
     main {
         padding: 1.5rem 0;
     }
-
     h3 {
         font-size: 1.5rem;
     }
-
-    .why-us ul li, .services ul li {
+    .why-us ul li,
+    .services ul li {
         font-size: 1rem;
     }
-
     .cases {
         gap: 1.5rem;
     }
-
     .card {
         width: 100%;
     }
-
     .card img {
         height: 10rem;
     }
-
     .card h3 {
         font-size: 1.1rem;
     }
-
     .services-container {
         max-width: 90%;
     }
-
     .services-list {
         gap: 2rem;
     }
-
     .services-item {
         min-height: 8rem;
     }
-
     .services-title {
         font-size: 1rem;
     }
-
     .services-number {
         font-size: 6rem;
         line-height: 0.8;
     }
-
     .services-item:nth-child(odd) .services-number {
         left: -2rem;
     }
-
     .services-item:nth-child(even) .services-number {
         right: -2rem;
     }
-
     .contact-info {
         flex-direction: column;
         gap: 1rem;
     }
-
     .footer-icons {
         flex-direction: column;
         gap: 1rem;
